@@ -3,19 +3,6 @@ Databasedotcom Demo
 
 ________________________
 
-Demo Credentials:
-
-1. Why am I giving these out? -- Well, the proof is in the pudding. You need to be able to see that it really does interact with salesforce.
-2. it's a demo org. ... what're you gonna do with it?
-3. I hate reading an exmaple where it all code until you get to <crutial bit here> 
-4. I'm very sleepy.
-
-User Name: db@21demo.com
-pass word: rubyponies4tw!
-Security Token: z0ncoZbAiYhE1ffVtwa5lpGW
-
-________________________
-
 This application was generated with the rails_apps_composer gem:
 https://github.com/RailsApps/rails_apps_composer
 provided by the RailsApps Project:
