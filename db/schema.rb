@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130313125734) do
+ActiveRecord::Schema.define(:version => 20130313161259) do
 
   create_table "roles", :force => true do |t|
     t.string   "name"
@@ -29,8 +29,9 @@ ActiveRecord::Schema.define(:version => 20130313125734) do
     t.string   "email"
     t.string   "provider"
     t.string   "uid"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+    t.string   "refresh_token"
   end
 
   create_table "users_roles", :id => false, :force => true do |t|

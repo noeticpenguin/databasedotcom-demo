@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Databasedotcom::Application.load_tasks
+DatabasedotcomDemo::Application.load_tasks
